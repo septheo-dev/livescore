@@ -1,0 +1,357 @@
+html{
+	background-color: black;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+
+}
+
+h1{
+	color: white;
+	border: solid yellow 2px;
+}
+
+h2{
+	margin: 0 0 0 0;
+}
+
+nav{
+	
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	
+	
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+	width: 80%;
+}
+
+#div_profil{
+height: auto;
+width: auto;
+border: solid red 2px;
+text-align: right;
+}
+
+#avatar{
+
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	background-color: grey;
+	border: none;
+}
+
+.bouton_inscription{
+
+	background-color: #212121
+	border-radius: 5px;
+	text-decoration: none;
+	color:  white; 
+	width: auto;
+	height: auto;
+	justify-content: center;
+	padding: 5 5 0 5;
+
+}
+
+.bouton_inscription:hover{
+	background-color: grey;
+	transition-duration: 0.5s;
+}
+
+
+.bouton_football{
+	text-align: center;
+}
+
+#centrer{
+	display: flex;
+	justify-content: center;
+}
+
+#sports{
+
+	display: flex;
+	
+	justify-content: space-between;
+	border-bottom: solid orange 3px;
+	width: 500;
+
+}
+
+#triangle-code{
+ display : inline-block;
+ border-right : 5px solid transparent;
+ border-bottom : 5px solid red;
+ border-left : 5px solid transparent;
+
+ position: absolute;
+ width: 0;
+ height: 0;
+ left: 35%;
+}
+
+
+#bouton{
+	display: flex;
+	background-color: #212121
+	border-radius: 5px;
+	text-decoration: none;
+	color:  white; 
+	width: auto;
+	height: auto;
+	justify-content: center;
+	padding: 5 5 0 5;
+	
+}
+#bouton:hover{
+	background-color: grey;
+	transition-duration: 0.5s;
+}
+
+#container{
+	background-color: #212121;
+	height: auto;
+	width: 75%;
+	align-self: center;
+	margin-top: 30;
+	border-radius: 25px;
+}
+
+#championnats{
+
+	display: flex;
+	height: 100%;
+
+
+}
+
+#pays{
+	display: flex;
+	flex-direction: column;
+	
+	width: 20%;
+	height: 100%;
+}
+
+#ref{
+	text-decoration: underline;
+	text-align: left;
+	color:  white;
+	height: auto;
+}
+
+a.bouton-premier-league {
+
+	
+}
+
+a{
+	
+}
+
+#resultatfootball{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between center;
+	width: 100%;
+	
+
+}
+
+#matchs{
+	
+	width: 80%;
+}
+
+#matchsplusclassement{
+	display: flex;
+	border: solid white 3px;
+	
+
+}
+
+#match1{
+	
+	display: flex;
+	height: auto;
+	width: auto;
+	justify-content: space-around;
+	padding: 10 0 10 0;
+	background-color: black;
+}
+
+.equipe_domicile{
+	display: flex;
+	width: 20%;
+	height: 5%;
+	color: white;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.score{
+
+width: 5%;
+height: 5%;
+text-decoration: none;
+color: white;
+text-align: center;
+
+}
+
+.equipe_exterieur{
+
+justify-content: space-between;
+display: flex;
+width: 20%;
+height: 5%;
+color: white;
+text-align: right;
+
+}
+
+.classement{
+
+	width: 10px;
+
+}
+
+#star {
+	color: white;
+	text-align: center;
+	size: 3em;
+	border: none;
+	background-color: black;
+	cursor: pointer;}
+
+#star:hover{
+	color: #ffe600;
+}
+
+.heart {
+	color: white;
+	size: 3em;
+	border: none;
+	background-color: black;
+	cursor: pointer;
+}
+
+.heart:hover{
+	color: red;
+}
+
+
+.championnat_entete{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+.tableau_classement{
+	border: solid grey 1px;
+	width: auto;
+	height: auto;
+}
+
+td,th{
+	border: solid grey 1px;
+	text-align: center;
+	color: white;
+	}
+
+#matchs_favoris{
+
+	width: 100%;
+}
+
+input[type="checkbox"]{
+
+	position: relative;
+	transform: rotate(45deg);
+	outline:0;
+	border: none;
+	
+}
+
+input[type="checkbox"]:before{
+	position: absolute;
+	content: "";
+	background-color: white;
+	height: 60%;
+	width: 100%;
+	top: -59%;
+	border-radius: 75px 75px 0px 0;
+	border: none;
+}
+
+input[type="checkbox"]:after{
+
+	position: absolute;
+	content: "";
+	background-color: white;
+	height: 60%;
+	width: 100%;
+	transform: rotate(-90deg);
+	top: -59%;
+	border-radius: 75px 75px 0 0;
+	top: 20%;
+	right: 79%;
+	border: none;
+
+}
+
+input[type="checkbox"]:checked;
+input:checked[type="checkbox"]:before,
+input:checked[type="checkbox"]:after
+{
+background-color: #fe0f42;
+}
+
+#connexion{
+	background-color: black;
+}
+
+#connexion_bouton{
+	text-decoration-color: white;
+}
+
+#container_connexion{
+	display:  flex;
+	margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+}
+
+.bouton_retour{
+
+	align-items: left;
+	background-color: #212121;
+	border-radius: 5px;
+	text-decoration: none;
+	color:  white; 
+	width: auto;
+	height: auto;
+	padding: 5 5 0 5;
+
+}
+
+.bouton_retour:hover{
+
+	background-color: grey;
+	transition-duration: 0.5s;
+}
+
